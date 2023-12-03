@@ -39,7 +39,11 @@
                   value="morning"
                   class="search-form__checkbox visually-hidden"
                 />
-                <span class="search-form__pseudo-checkbox"></span>
+                <span
+                  class="search-form__pseudo-checkbox"
+                  role="checkbox"
+                  aria-checked="true"
+                ></span>
                 <span class="search-form__label-text">Утро</span>
               </label>
               <label class="search-form__label">
@@ -49,17 +53,26 @@
                   value="afternoon"
                   class="search-form__checkbox visually-hidden"
                 />
-                <span class="search-form__pseudo-checkbox"></span>
+                <span
+                  class="search-form__pseudo-checkbox"
+                  role="checkbox"
+                  aria-checked="true"
+                ></span>
                 <span class="search-form__label-text">День</span>
               </label>
               <label class="search-form__label">
                 <input
                   type="checkbox"
+                  checked
                   name="time"
                   value="night"
                   class="search-form__checkbox visually-hidden"
                 />
-                <span class="search-form__pseudo-checkbox"></span>
+                <span
+                  class="search-form__pseudo-checkbox"
+                  role="checkbox"
+                  aria-checked="true"
+                ></span>
                 <span class="search-form__label-text">Ночь</span>
               </label>
             </div>
@@ -106,7 +119,7 @@
       </li>
     </template>
     <template class="more-button-template">
-      <li><button class="button more-button">Показать еще</button></li>
+      <li><button class="button more-button">Показать ещё</button></li>
     </template>
 
     <template class="error-template">
